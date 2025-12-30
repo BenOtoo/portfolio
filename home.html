@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio | Benjamin Otoo</title>
+        <link rel="stylesheet" href="./home.css" type="text/css">
+        <script>
+            window.onload = function() {
+            // Reset the form fields when the page loads
+            document.getElementById("form").reset();
+            };
+        </script>
+    </head>
+    <body>
+        <div class="main">
+            <div class="container">
+            <nav>
+                    <a href="#recent_projects">Projects</a>
+                    <a href="#contact">Contact</a>
+            </nav>
+            <div id="content">
+                <h1>Hello, I am Benjamin Otoo, Frontend Developer and Data scientist</h1>
+                <div class="Bio">
+                    <p>Specialized in building high-performance, user-focused web applications and delivering data-driven insights that support business decisions. I work with HTML, CSS, JavaScript, React, and Git to develop clean, responsive interfaces, and use Python scripting, NumPy, Pandas, SQL, and SSMS to analyze, manage, and interpret complex datasets. I bring a practical, results-oriented approach that bridges frontend engineering and analytics to create efficient, scalable, and impactful solutions.</p>
+                    <img src="./thumbnail.jpg" alt="Image of Benjamin Otoo" class="profile">
+                </div>
+                <div class="resume_button">
+                    <button><a href="" class="resume">Download Resume</a></button>
+                </div>
+                <div class="inner">
+                    <div id="recent_projects">
+                        <div class="sample_1">
+                            <a href="" class="text"><h3>DNA Sequence Analysis and Transformation Tool (Python)</h3></a>
+                            <a href="" class="text"><p>This project implements a Python script for analyzing DNA sequence data stored in FASTA format. It parses raw nucleotide sequences, excluding metadata, and computes key genomic metrics including base counts, GC and AT content percentages, and ambiguous nucleotide (N) frequency. The script also generates the reverse complement of the sequence and performs DNA-to-RNA transcription. The project demonstrates practical bioinformatics skills, efficient algorithm design, and a strong understanding of molecular biology fundamentals applied in computational workflows.</p></a>
+                        </div>
+                        <div class="sample_2">
+                            <a href="" class="text"><h3>Traffic Source Performance Analysis for Digital Advertisements</h3></a>
+                            <a href="" class="text"><p>This project analyzes user engagement with online advertisements using Python and Pandas. The objective is to identify which traffic sources generate the highest number of clicks and to compare performance differences between experimental ad groups using A/B testing principles. The workflow includes data cleaning and transformation, data aggregation using GroupBy and pivot tables, boolean filtering, and statistical comparison to support data-driven advertising decisions.</p></a>
+                        </div>
+                        <div class="sample_1">
+                            <a href="" class="text"><h3>E-commerce Conversion Funnel & Time-to-Purchase Analysis</h3></a>
+                            <a href="" class="text"><p>This project analyzes user behavior through an e-commerce conversion funnel for Cool T-Shirts Inc.. Using Python and Pandas, I examine how users move from visiting the website to adding items to their cart, proceeding to checkout, and completing a purchase. The analysis identifies funnel drop-offs and calculates the average time taken from initial visit to purchase.</p></a>
+                        </div>
+                        <div class="sample_2">
+                            <a href="" class="text"><h3>Jeopardy! Data Analysis with Pandas</h3></a>
+                            <a href="" class="text"><p>This project explores a dataset of Jeopardy! trivia questions using Python and pandas. The analysis focuses on data cleaning, text processing with regular expressions, and exploratory analysis, including filtering questions by keywords and computing summary statistics.The project demonstrates practical pandas skills such as column standardization, string manipulation, numeric conversion, and basic analytical queries.</p></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </body>
+    <footer>
+        <div class="container_2">
+            <div>
+                <h2>LET'S TALK</h2>
+            </div>
+            <div class="social">
+                <h3>Social</h3>
+                <a href="www.linkedin.com/in/benjamin-otoo"><img src="linkedin_logo.jpg" alt="LinkedIn logo"></a>
+            </div>
+            <div class="form_container" id="contact">
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="3bb23f59-059a-4652-87c0-c9fe38e837de">
+                    <input type="hidden" name="redirect" value="success.html">
+                    <label for="name" class="name">Name: </label>
+                    <input type="text" name="name" id="name" required>
+                    <label for="email" class="email">Email:</label>
+                    <input type="text" name="email" id="email" required>
+                    <label for="message" class="message">Message:</label>
+                    <textarea name="message" id="message" rows="4" cols="2" required>Type your message here</textarea>
+                    <button class="submit" type="submit"><img class="submit_text" src="right-arrow.avif" alt="icon">SUBMIT</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+</html>
+
