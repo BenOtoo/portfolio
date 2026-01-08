@@ -165,6 +165,34 @@ p{
     color: lab(82.83% 8.05 2.93);
     transform: scale(1.1);
 }
+.sample_1 button{
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    left: 40%;
+}
+
+.sample_1 a{
+    text-decoration: none;
+}
+.sample_2 button{
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    left: 40%;
+}
+
+.sample_2 a{
+    text-decoration: none;
+}
+.sample_1 a:hover{
+    font-size: 23px;
+    color: #ea7878b7;
+}
+.sample_2 a:hover{
+    font-size: 23px;
+    color: #ea7878b7;
+}
 
 .container_2{
     margin-top: 10%;
